@@ -1,0 +1,66 @@
+h1
+{
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	color: black;
+	font-size: 500%;
+	margin: 150px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+h2.name
+{
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	color: black;
+	text-align: center;
+	margin-top: 0px;
+}
+div.wrapper
+{
+	position: relative;
+	text-align: center;
+	left: -9px;
+	top: -9px;
+}
+div.name
+{
+	position: absolute;
+	top: 15%;
+	bottom: 50%;
+	left: 29%;
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	color: black;
+}
+h2.intro
+{
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 325%;
+	color: black;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+img.portrait
+{
+	margin-top: 0px;
+	width: 250px;
+	height: 400px;
+	object-fit: contain;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+div.intro_text
+{
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	text-align: left;
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
