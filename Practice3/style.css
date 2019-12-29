@@ -1,0 +1,392 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    background: #ffe3d4
+}
+.container
+{
+    position: relative;
+}
+/* Menu */
+.menu
+{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    height: 100px;
+    background: #333232;
+}
+.menu ul
+{
+    position: absolute;
+    top: 11px;
+    left: 34%;
+    display: inline-flex;
+    color: #e6e6e6;
+}
+.menu ul li
+{
+    list-style: none;
+    margin: 30px;
+}
+.home-btn a
+{
+    text-decoration: none;
+    color: #e6e6e6;
+}
+.profile-btn a
+{
+    text-decoration: none;
+    color: #e6e6e6;
+}
+.my-work-btn a
+{
+    text-decoration: none;
+    color: #e6e6e6; 
+}
+
+/* Page 1 */
+.page1
+{
+    height: 100vh;
+}
+.page1 img
+{
+    width: 10%;
+    position: absolute;
+    left: 100px;
+    top: 180px;
+}
+.intro-main
+{
+    position: absolute;
+    left: 100px;
+    top: 550px;
+    font-size: 300%;
+}
+.main-transition-btn
+{
+    font-size: 70px;
+    position: absolute;
+    left: 50%;
+    top: 815px;
+    cursor: pointer;
+}
+.main-transition-btn a
+{
+    color: black;
+}
+.transition-txt
+{
+    position: absolute;
+    font-size: 35px;
+    left: 43.5%;
+    top: 775px;
+}
+
+/* Page 2 */
+.page2
+{
+    height: 100vh;
+    position: relative;
+    background: white;
+}
+.profile h1
+{
+    position: absolute;
+    top: 140px;
+    left: 39%;
+    font-size: 350%;
+    color: #333232;
+}
+.profile h2
+{
+    position: absolute;
+    top: 210px;
+    left: 46.75%;
+    font-size: 200%;
+    color: #333232;
+}
+.portrait img
+{
+    position: absolute;
+    width: 15%;
+    border-radius: 50%;
+    top: 330px;
+    left: 43.5%;
+    border: 15px solid #ffe3d4;
+}
+.profile-line
+{
+    border-top: 1px solid #737373;
+    position: relative;
+    top: 280px;
+    left: 21%;
+    width: 60%;
+}
+.about-me
+{
+    position: absolute;
+    left: 22%;
+    top: 350px;
+}
+.profile-info
+{
+    position: absolute;
+    top: 350px;
+    right: 20%;
+}
+.profile-line2
+{
+    border-top: 1px solid #737373;
+    position: relative;
+    top: 670px;
+    left: 21%;
+    width: 60%;
+}
+.second-transition-btn
+{
+    font-size: 70px;
+    position: absolute;
+    left: 50%;
+    top: 800px;
+    cursor: pointer;
+}
+.second-transition-btn a
+{
+    color: black;
+}
+.socials-bar
+{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    top: 725px;
+    background-color: #ffe3d4;
+}
+.socials-bar ul
+{
+    display: inline-flex;
+    position: relative;
+    left: 45.75%;
+}
+.socials-bar ul li
+{
+    list-style: none;
+    cursor: pointer;
+    margin: 20px;
+}.socials-bar ul li i
+{
+    font-size: 25px;
+}
+.socials-bar ul li a
+{
+    color: #333232;
+}
+/* Page3 */
+.page3
+{
+    height: 300vh;
+    position: relative;
+    background: #fffcfa;
+}
+.page3 h2
+{
+    font-size: 250%;
+    position: absolute;
+    top: 130px;
+    left: 31%;
+}
+.job1
+{
+    position: relative;
+    top: 140px;
+}
+.job1 img
+{
+    position: absolute;
+    border-radius: 20px;
+    width: 350px;
+    height: auto;
+    top: 70px;
+    left: 350px;
+}
+.title-ibm
+{
+    position: absolute;
+    top: -60px;
+    left: 630px;
+    width: 400px;
+    font-size: 60%;
+    color: #3a26ad;
+}
+.role-ibm
+{
+    position: absolute;
+    top: -30px;
+    left: 599px;
+    width: 500px;
+    font-size: 50%;
+    color: #8a1c1c;
+}
+.loc-ibm
+{
+    position: absolute;
+    top: -8px;
+    left: 692px;
+    width: 200px;
+    font-size: 45%;
+}
+.info-ibm
+{
+    position: absolute;
+    top: 130px;
+    left: 755px;
+}
+.job2
+{
+    position: relative;
+    top: 400px;
+}
+.job2 img
+{
+    position: absolute;
+    border-radius: 20px;
+    width: 350px;
+    height: auto;
+    top: 70px;
+    left: 350px;
+}
+.title-ford
+{
+    position: absolute;
+    top: -50px;
+    left: 586px;
+    width: 550px;
+    font-size: 60%;
+    color: #3a26ad;
+}
+.role-ford
+{
+    position: absolute;
+    top: -20px;
+    left: 602px;
+    width: 500px;
+    font-size: 50%;
+    color: #8a1c1c;
+}
+.loc-ford
+{
+    position: absolute;
+    top: 3px;
+    left: 695px;
+    width: 200px;
+    font-size: 45%;
+}
+.info-ford
+{
+    position: absolute;
+    top: 160px;
+    left: 757px;
+}
+.job3
+{
+    position: relative;
+    top: 750px;
+}
+.job3 img
+{
+    position: absolute;
+    border-radius: 20px;
+    width: 350px;
+    height: auto;
+    top: 100px;
+    left: 350px;
+}
+.title-wato
+{
+    position: absolute;
+    top: -110px;
+    left: 507px;
+    width: 800px;
+    font-size: 60%;
+    color: #3a26ad;
+}
+.role-wato
+{
+    position: absolute;
+    top: -80px;
+    left: 602px;
+    width: 500px;
+    font-size: 50%;
+    color: #8a1c1c;
+}
+.loc-wato
+{
+    position: absolute;
+    top: -55px;
+    left: 663px;
+    width: 300px;
+    font-size: 45%;
+}
+.info-wato
+{
+    position: absolute;
+    top: 100px;
+    left: 757px;
+}
+.job4
+{
+    position: relative;
+    top: 750px;
+}
+.job4 img
+{
+    position: absolute;
+    border-radius: 20px;
+    width: 350px;
+    height: auto;
+    top: 320px;
+    left: 350px;
+}
+.title-uofc
+{
+    position: absolute;
+    top: 190px;
+    left: 507px;
+    width: 800px;
+    font-size: 60%;
+    color: #3a26ad;
+}
+.role-uofc
+{
+    position: absolute;
+    top: 215px;
+    left: 602px;
+    width: 500px;
+    font-size: 50%;
+    color: #8a1c1c;
+}
+.loc-uofc
+{
+    position: absolute;
+    top: 240px;
+    left: 663px;
+    width: 300px;
+    font-size: 45%;
+}
+.info-uofc
+{
+    position: absolute;
+    top: 400px;
+    left: 757px;
+}
