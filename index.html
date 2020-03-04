@@ -1,45 +1,240 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 
 <html lang="en">
-<head>
-	<link rel="stylesheet" href="style.css">
-	<title>
-		Max Zhou
-	</title>
-</head>
-<body>
-	<div class="wrapper">
-		<img class="dome" src="dome.jpg" style="width: 1920px;">
-		<div class="menu">
-			<ul>
-				<li>
-					Home
-				</li>
-				<li>
-					Projects
-				</li>
-				<li>
-					Resume
-				</li>
-			</ul>
-		</div>
-		<div class="name">
-			<h1 style="font-size: 700%">
-				Max Zhou
-			</h1>
-			<!-- <h2 class="name" style="text-align: center;">
-				Welcome to my Website!
-			</h2> -->
-		</div>
-	</div>
-	<h2 class="intro">
-		About Me
-	</h2>
-	<br>
-	<img class="portrait" src="Portrait.jpg" style="float: left">
-	<div class="intro_text">
-		<p>
-			Hi! I am an Electrical Enginering student at the University of Waterloo.
-		</p>
-	</div>
-</body>
+    <head>
+        <title> Max Zhou </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md sticky-top navbar-light bg-light">
+            <a class="navbar-brand" href="#"> <img src="home.svg" width="50vw" height="auto"> <span class="logo-name"> <strong> Max Zhou </strong> </span> </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu ">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-me"> About Me </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience"> Experience </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#page2"> Projects </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Resume </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="intro-text">
+                <h2 class="intro1"> Hi! 👋 My name is </h3>
+                <h2 class="intro2"> Max Zhou </h1>
+                <h2 class="intro3">
+                    I am a
+                    <span href="" class="typewrite" data-period="500" data-type='[ "Lifelong Learner.", "Developer.", "Innovator.", "Designer." ]'>
+                        <span class="wrap"></span>
+                    </span>
+                </h2>
+                <p class="intro4">
+                    Let's build something amazing together 🚀
+                </p>
+                <img class="intro-img" src="cover2.svg">
+                <div class="transition1"><a href="#about-me"><i class="fa fa-angle-double-down"></i></a></div>
+            </div>
+            <div class="icons">
+                <ul>
+                    <li class="vertical-line1"></li>
+                    <li class="github"><a class="github-link" href="https://github.com/Maxonezhou"><i class="fa fa-github"></i></a></li>
+                    <li class="linkedin"><a class="linkedin-link" href="https://linkedin.com/in/max-zhou"><i class="fa fa-linkedin"></i></a></li>
+                    <li class="devpost"><a class="devpost-link" href="https://devpost.com/Maxonezhou"><i class="fa fa-code"></i></a></li>
+                    <li class="email"><a class="email-link" href="mailto:max.zhou@uwaterloo.ca"><i class="fa fa-envelope-o"></i></a></li>
+                    <li class="vertical-line2"></li>
+                </ul>
+            </div>
+            <div class="wrapper">
+                <div class="about-me-inc" id="about-me">_</div>
+                <div class="about-me">
+                    <h2 class="about-me-title1"> <strong> Here's a little about me 👱‍♂️ </strong> </h2>
+                    <p class="about-me-desc1">
+                        Hi! I am an Electrical Engineering student at the University of Waterloo. I love all things <strong> hardware </strong> and <strong> embedded
+                        systems </strong> related. Challenging problems and tough obstacles inspire me to create meaningful solutions for the world around me. 
+                    </p>
+                    <h2 class="about-me-title2"> <strong> These are my values ✨</strong> </h2>
+                    <p class="about-me-desc2">
+                        • <a class="curiosity" href="https://www.harvardbusiness.org/the-importance-of-being-curious/"> <strong> Curiosity </strong> </a> — Get to the bottom of everything that you do. <br>
+                        • <a class="joyfulness" href="https://www.theatlantic.com/health/archive/2019/06/why-joy-better-happiness/592735/"> <strong> Joyfulness </strong> </a> — Life is short <br>
+                        • <a class="fearlessness" href="https://www.entrepreneur.com/article/230944"> <strong> Fearlessness </strong> </a> — Don't fear the future <br>
+                    </p>
+                    <h2 class="about-me-title3"> <strong> These are my skills 🛠</strong> </h2>
+                    <div class="about-me-desc3">
+                        <p class="skills-col1">
+                            • C/C++ <br>
+                            • VHDL <br>
+                            • ARM Assembly <br>
+                            • Matlab <br>
+                            • Java | AspectJ <br>
+                            • Javascript <br>
+                            • HTML and CSS <br>
+                        </p>
+                        <p class="skills-col2">
+                            • Real-time Operating Systems (RTOS) - Microsar.OS and ROS <br>
+                            • CAN Protocol <br>
+                            • IoT (Internet of Things) <br>
+                            • I2C Protocol <br>
+                            • Quartus Altera <br>
+                            • Microprocessor Design <br>
+                        </p>
+                    </div>
+                    <img class="about-me-img" src="portrait.png">
+                </div>
+                <div class="experience-inc" id="experience">_</div>
+                <div class="experience">
+                    <h2 class="experience-title1"> <strong> This is what I've done ✔ </strong>︎️ </h2>
+                    <div class="ibm">
+                        <img src="IBM.jpg" class="ibm-img">
+                        <div class="ibm-info">
+                            <h2 class="ibm-title"> <span class="ibm-role"> Backend Software Developer </span> @ IBM Canada 👁🐝𝗠 </h2>
+                            <h2 class="ibm-loc"> Ottawa, ON 📍</h2>
+                            <p class="ibm-desc">
+                                Our team worked on the IBM Planning Analytics product, a cloud-based buisiness analytics 
+                                tool running on the IBM TM1 multidimensional database. I worked on the backend cloud 
+                                services helping build and integrate system-wide logging services using NodeJS,
+                                Java/AspectJ, and Golang. Additionally, I worked on implementing a sanbox view refresh 
+                                feature which allowed users to create multiple non-conflicting views of the same
+                                database.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cansofcom">
+                        <img src="cansofcom.jpeg" class="cansofcom-img">
+                        <div class="cansofcom-info">
+                            <h2 class="cansofcom-title"> <span class="cansofcom-role"> Virtual Forces Student Analyst | Hardware </span> @ CANSOFCOM</h2>
+                            <h2 class="cansofcom-loc"> Ottawa, ON 📍</h2>
+                            <p class="cansofcom-desc">
+                                Worked in the hardware division of the Canadian Special Operations Forces Command helping 
+                                design and deploy sensor hardware. Prototyped and leveraged IoT (Internet of Things) to 
+                                integrate sensor equipment, providing crucial information for command center personnel. 
+                                Sensor Integration team. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ford">
+                        <img src="ford.svg" class="ford-img">
+                        <div class="ford-info">
+                            <h2 class="ford-title"> <span class="ford-role"> Firmware Developer </span> @ Ford Motor Company of Canada 🚙 </h2>
+                            <h2 class="ford-loc"> Ottawa, ON 📍</h2>
+                            <p class="ford-desc">
+                                Our team worked on developing the firmware for the CAN gateway in future
+                                Ford vehicles. We helped fully integrate CAN software from database file
+                                configuration to full CAN routing support through all layers of the software
+                                stack. I worked on improving system parallelism and efficiency by implementing
+                                complete CPU, software stack, and runtime optimization using real-time Vector 
+                                APIs and reducing ISR (interrupt service routine) overhead. I also developed 
+                                an inter-process communication protocol using reason code.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="wato">
+                        <img src="wato.png" class="wato-img">
+                        <div class="wato-info">
+                            <h2 class="wato-title"> <span class="wato-role"> Sensor Interfacing Engineer </span> @ WATOnomous 🚘 </h2>
+                            <h2 class="wato-loc"> Waterloo, ON 📍</h2>
+                            <p class="wato-desc">
+                                Watonomous is the University of Waterloo's student run autonomous vehicles 
+                                team competing in the SAE Autodrive Challenge. Our team is made up of four 
+                                main divisions (Software, Electrical, Mechanical, and Buisness) as well as 
+                                several subteams working towards turning a Chevorlet Bolt into a fully 
+                                capable autonomous vehicle. I work on the sensor interfacing team where I 
+                                write driver code for our vehicle's sensors such as LiDARs, cameras, and GPS. 
+                                This semester I worked on integrating TF transforms to unify the frames of reference 
+                                for the sensors.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="uofc">
+                        <img src="uofc.png" class="uofc-img">
+                        <div class="uofc-info">
+                            <h2 class="uofc-title"> <span class="uofc-role"> Fluid Dynamics Student Researcher </span> @ University of Calgary 🔬 </h2>
+                            <h2 class="uofc-loc"> Calgary, AB 📍</h2>
+                            <p class="uofc-desc">
+                                Worked as a fluid dynamics student researcher at the University of Calgary 
+                                over the summers of 2017 and 2018 where I carried out multi-input and multi- 
+                                output (MIMO) system identification on fluid dynamic systems using Matlab and 
+                                Simulink to calculate fluid flow parameters. I also experimentally implemented 
+                                Buttersworth filters to reduce statistical noise by 77%.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-inc" id="projects">_</div>
+                <div class="projects">
+                    <h2 class="projects-title"> <strong> Here are some projects I've worked on ⚙️ </strong> </h2>
+                    <div class="projects-flex1">
+                        <div class="detritusai">
+                            <div class="detritusai-wrapper">
+                                <span style="color: white; font-size: 0.2vw;">_</span>
+                                <img class="detritusai-cover" src="detritusai-cover.svg">
+                                <div style="text-align: center; font-size: 2vw;">DetritusAI</div>
+                                <span style="color: white;">_</span>
+                                <div class="detritusai-overlay">
+                                    <div class="text">
+                                        <h2 class="detritusai-title"> DetritusAI </h2>
+                                        <p class="detritusai-desc">
+                                            DetritusAI is an novel solution for smart city urban waste collection leveraging machine learning,
+                                            IoT, and cloud pub/sub message brokering to help optimize garbage collection routes based on the 
+                                            capacity of garbage cans in the city.
+            
+                                            <!--Image classification is used to 
+                                            help classify objects as either waste or recycling, then this information is published over MQTT
+                                            to Solace's PubSub+ cloud message brokering platform which sends a signal to recycling and garbage cans 
+                                            outfitted with servo motors and time-of-flight sensors. After reading the signal, the appropriate garbage or
+                                            recycling can will open to prompt the user to dispose of their waste. Time-of-flight sensors in each container
+                                            sense how full each container is and this information-->
+                                        </p>
+                                        <p class="detritusai-awards">
+                                            • MakeUofT Solace Best use of PubSub+ Platform Winner <br>
+                                            • MakeUofT Major League Hacking Best Use of Google Cloud Platform Winner
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="cpu">
+                            <h2 class="cpu-title"> 8-bit Homebrew Breadboard Computer </h2>
+                        </div>
+                        <div class="guardian">
+                            <h2 class="guardian-title"> Guardian </h2>
+                        </div>
+                    </div>
+                    <div class="projects-flex2">
+                        <div class="inbrace">
+                            <h2 class="inbrace-title"> InBrace </h2>
+                        </div>
+                        <div class="fireguard">
+                            <h2 class="fireguard-title"> FireGuard </h2>
+                        </div>
+                        <div class="onsight">
+                            <h2 class="onsight-title"> OnSight </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
