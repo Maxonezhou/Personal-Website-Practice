@@ -28,7 +28,7 @@
                         <a class="nav-link" href="#experience"> Experience </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#page2"> Projects </a>
+                        <a class="nav-link" href="#projects"> Projects </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"> Resume </a>
@@ -73,8 +73,10 @@
                     <h2 class="about-me-title2"> <strong> These are my values ✨</strong> </h2>
                     <p class="about-me-desc2">
                         • <a class="curiosity" href="https://www.harvardbusiness.org/the-importance-of-being-curious/"> <strong> Curiosity </strong> </a> — Get to the bottom of everything that you do. <br>
-                        • <a class="joyfulness" href="https://www.theatlantic.com/health/archive/2019/06/why-joy-better-happiness/592735/"> <strong> Joyfulness </strong> </a> — Life is short <br>
-                        • <a class="fearlessness" href="https://www.entrepreneur.com/article/230944"> <strong> Fearlessness </strong> </a> — Don't fear the future <br>
+                        • <a class="joyfulness" href="https://www.theatlantic.com/health/archive/2019/06/why-joy-better-happiness/592735/"> <strong> Joyfulness </strong> </a> — Life is short. <br>
+                        • <a class="fearlessness" href="https://www.entrepreneur.com/article/230944"> <strong> Fearlessness </strong> </a> — Don't fear the future. <br>
+                        • <a class="authenticity" href="https://www.thinkright.me/en/think-right/self-care/the-importance-of-authenticity-for-self-and-society/"> <strong> Authenticity </strong> </a> — Be the same person at every occasion in life. <br>
+                        • <a class="responsibility" href="https://blog.mindvalley.com/personal-responsibility/"> <strong> Responsibility </strong> </a> — Own your actions, mistakes, and situation. <br>
                     </p>
                     <h2 class="about-me-title3"> <strong> These are my skills 🛠</strong> </h2>
                     <div class="about-me-desc3">
@@ -180,56 +182,173 @@
                 <div class="projects-inc" id="projects">_</div>
                 <div class="projects">
                     <h2 class="projects-title"> <strong> Here are some projects I've worked on ⚙️ </strong> </h2>
-                    <div class="projects-flex1">
-                        <div class="detritusai">
-                            <div class="detritusai-wrapper">
-                                <span style="color: white; font-size: 0.2vw;">_</span>
-                                <img class="detritusai-cover" src="detritusai-cover.svg">
-                                <div style="text-align: center; font-size: 2vw;">DetritusAI</div>
-                                <span style="color: white;">_</span>
-                                <div class="detritusai-overlay">
-                                    <div class="text">
-                                        <h2 class="detritusai-title"> DetritusAI </h2>
-                                        <p class="detritusai-desc">
-                                            DetritusAI is an novel solution for smart city urban waste collection leveraging machine learning,
-                                            IoT, and cloud pub/sub message brokering to help optimize garbage collection routes based on the 
-                                            capacity of garbage cans in the city.
-            
-                                            <!--Image classification is used to 
-                                            help classify objects as either waste or recycling, then this information is published over MQTT
-                                            to Solace's PubSub+ cloud message brokering platform which sends a signal to recycling and garbage cans 
-                                            outfitted with servo motors and time-of-flight sensors. After reading the signal, the appropriate garbage or
-                                            recycling can will open to prompt the user to dispose of their waste. Time-of-flight sensors in each container
-                                            sense how full each container is and this information-->
-                                        </p>
-                                        <p class="detritusai-awards">
-                                            • MakeUofT Solace Best use of PubSub+ Platform Winner <br>
-                                            • MakeUofT Major League Hacking Best Use of Google Cloud Platform Winner
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="cpu">
-                            <h2 class="cpu-title"> 8-bit Homebrew Breadboard Computer </h2>
-                        </div>
-                        <div class="guardian">
-                            <h2 class="guardian-title"> Guardian </h2>
+                    <div class="cpu">
+                        <img class="cpu-img" src="cpu.JPG">
+                        <div class="cpu-info">
+                            <h2 class="cpu-name"> 8-Bit Homemade Breadboard Computer 💻</h2>
+                            <p class="cpu-desc">
+                                Computer hardware and cpu architecture has always been something that intrigued me. Whether is was designing basic logic circuits
+                                are reading about new advances in cpu technology pushing the envelope of computation, learning to design my own cpu from scratch 
+                                has always been a goal of mine. After completing two courses in analog electronics, one course in digital logic, and a course in 
+                                computer organization, I embarked on a journey to built an 8-bit cpu completely from scrath on a breadboard; here is the result. <br><br>
+
+                                This breadboard computer followed the SAP-1 (Simple as Possible 1) architecture as introduced by Albert Paul Malvino. This very basic
+                                model of the computer processor contains only the basic necessities for a functional microprocessor, nevertheless, it is an interesting
+                                architecture to follow for the purposes of building one completely from scratch. <br><br>
+
+                                The cpu is built using low level Texas Intruments 74LS series TTL logic chips running on 5V logic. <br><br>
+
+                                To read more about this processor as well as its technical specifications, please check out my Medium article here detailing all the 
+                                nitty gritty information and a little more insight into what I learned: <a href="http://google.ca"> Article </a>
+                            </p>
                         </div>
                     </div>
-                    <div class="projects-flex2">
-                        <div class="inbrace">
-                            <h2 class="inbrace-title"> InBrace </h2>
+                    <div class="guardian">
+                        <div class="guardian-info">
+                            <h2 class="guardian-name"> Guardian - IoT Firefighter Helmet </h2>
+                            <p class="guardian-desc">
+                                <strong>
+                                    • Winner of Hack the North 2019 🏆<br>
+                                    • Winner of MLH Best use of Google Cloud Platform 🏆<br>
+                                    • Winner of Canadian Special Operation Forces Command Award (CANSOFCOM) 🏆<br><br>
+                                </strong>
+                                <atrong> Inspiration </atrong>
+                                When the Fort McMurray fires of 2016 destroyed over 3244 homes and caused 9.9 billion USD in damages, our team was inspired to seek new and 
+                                novel technologies to transoform the way we tackle firefighting. <br><br>
+
+                                <strong> Concept </strong>
+                                Guardian is an IoT enabled firefighter helmet that sends and retrieves information by using six sensors connected to a central microcontroller 
+                                capable of connecting to nearby WiFi networks. When information from the environment is extracted, we are capable of sending 
+                                this information using WiFi following the IOT protocol to a remote real-time database where it is stored and processed. When 
+                                this information is retrieved, it is used to create a web user interface that displays the information in a real-time framework 
+                                to show changes as they happen. This interface allows all subscribers to the web app to monitor the situation different firefighters 
+                                are and providing assistance when needed. <br><br>
+
+                                <strong> Specifications </strong>
+                                The microcontroller we used for this project is the NodeMCU board which is an Internet of Things enabled board built on top of the Arduino 
+                                framework. We then attached several sensors to the board (DHT11 Temperature and Humidity Sensor, CCS811 Air Quality Sensor, BME280 Atmospheric and 
+                                Pressure Sensor, and VEML6070 UV Index Sensor) following the I2C (Inter-Integrated Circuit) protocol where we used a multi-master/multi-slave architecture 
+                                to allow sensors to publish and receive data to the bus system. When the data is received by the NodeMCU microcontroller, the data is sent over WiFi to a 
+                                real-time Google Firebase database where it is categorized by sensor and type of data. This information is then retrieved and displayed on a web app user 
+                                interface updated in real-time. The web app is built using the Vue.js framework to process the real-time data. Other areas of the web app such as the 
+                                front-end design are built using the HTML5, CSS3, and Javascript. Additional features were implemented using Bootstrap, and ApexGraphs.<br><br>
+
+                                Check out our project here! <a href="https://devpost.com/software/guardian-2n7q3s"> Devpost </a>
+                            </p>
+                            <ul class="guardian-icons">
+                                <li class="guardian-github"><a class="guardian-github-link" href="https://github.com/Maxonezhou/Guardian"><i class="fa fa-github"></i></a></li>
+                                <li class="guardian-devpost"><a class="guardian-devpost-link" href="https://devpost.com/software/guardian-2n7q3s"><i class="fa fa-bars"></i></a></li>
+                            </ul>
                         </div>
-                        <div class="fireguard">
-                            <h2 class="fireguard-title"> FireGuard </h2>
+                        <div class="guardian-img-flex">
+                            <div class="guardian-img-flex-main">
+                                <img class="guardian-img-main" src="guardian3.png">
+                                <img class="guardian-img-main" src="guardian4.png">
+                                <img class="guardian-img-main-last" src="guardian5.png">
+                            </div>
+                            <div class="guardian-img-flex-secondary">
+                                <img class="guardian-img-secondary" src="guardian1.png">
+                                <img class="guardian-img-secondary" src="guardian2.png">
+                            </div>
                         </div>
-                        <div class="onsight">
-                            <h2 class="onsight-title"> OnSight </h2>
+                    </div>
+                    <div class="detritusai">
+                        <div class="detritusai-img-flex">
+                            <img class="detritusai-img" src="detritusAI.png">
+                            <img class="detritusai-img" src="detritusAI2.png">
+                        </div>
+                        <div class="detritusai-info">
+                            <h2 class="detritusai-name"> DetritusAI - IoT Smart City Waste Collection </h2>
+                            <p class="detritusai-desc">
+                                <strong>
+                                    • Winner of MakeUofT 2020 Best use of Solace PubSub+ Platform 🏆<br>
+                                    • Winner of MLH Best use of Google Cloud Platform 🏆<br><br>
+                                </strong>
+
+                                The issue of waste management is something that many people view as trivial, yet it is one of the fundamental factors that 
+                                will decide the liveability of the world. Even in Canada, a developed country, only 9% of plastics are recycled, meaning 
+                                that the equivalent of 24 CN towers of recyclable plastic enters our landfills each year. In developing nations, this is 
+                                an even more serious issue that can have profound impacts on quality of life. <strong> DetritusAI is a solution for modern smart 
+                                city urban waste collection. Our team sought to tackle the challenges cities face with waste collection and waste disposal, 
+                                hoping to optimize waste collection routes using machine learning and IoT.</strong> <br><br>
+
+                                Detritus AI is a smart, end-to-end, waste disposal system that detects and categorizes objects as either waste or recycling to
+                                help users correctly identify and dispose of their garbage and sends the capacity of each garbage/recycling container to a 
+                                <strong> remote cloud service which leverages the IoT data to optimize garbage collection routes. </strong> After the computer vision model is run 
+                                and the object is classified, the respective container lid (either trash or waste) will open automatically prompting the user 
+                                to dispose of their garbage in the proper container. Additionally, the smart garbage cans will transmit essential information 
+                                such as waste levels and location to a route optimization algorithm which takes into account the capacity and the distance 
+                                between containers - allowing for the optimization of garbage routes. DetritusAI tracks the quantity of waste that is in each 
+                                container and communicates with the client-side applications used by garbage truck drivers to determine how full each container is.
+                                <strong>Based on the capacity of each garbage can and its location, DetritusAI calculates the optimal route for garbage trucks to collect
+                                garbage while minimizing distance and time, even taking into account traffic. This project not only helps users correctly dispose 
+                                of their waste but more importantly reduces the time needed for garbage collection personnel to collect the waste thereby improving 
+                                efficiency, reducing pollution, and creating a smarter, greener city. </strong> <br><br>
+
+                                Check out our project here! <a href="https://devpost.com/software/detritusai-lsrpeq"> Devpost </a> <br><br>
+                            </p>
+                            <ul class="detritusai-icons">
+                                <li class="detritusai-github"><a class="detritusai-github-link" href="https://github.com/Maxonezhou/DetritusAI"><i class="fa fa-github"></i></a></li>
+                                <li class="detritusai-devpost"><a class="detritusai-devpost-link" href="https://devpost.com/software/detritusai-lsrpeq"><i class="fa fa-bars"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="fireguard">
+                        <div class="fireguard-info">
+                            <h2 class="fireguard-name"> FireGuard - IoT Forest Fire Detection </h2>
+                            <p class="fireguard-desc">
+                                <strong>
+                                    • Winner of Queens Hacks 2020 Sunlife Financial Best Health Hack 🏆<br>
+                                    • Winner of Queens Hacks 2020 Best use of RadarIO 🏆<br><br>
+                                </strong>
+
+                                Fireguard is an Internet of Things solution designed to detect and prevent forest fires at the instant they arise. 
+                                By placing this tool in different places in the forest, we are able to monitor important vitals about the environment
+                                and detect sudden changes in temperature, CO2 levels, atmospheric pressure and volume of total organic compounds. We 
+                                then retrieved this information and created a unique web user interface that responded to the real-time changes in data
+                                to relay information across all individuals over watching the situation. <br><br>
+
+                                The scope of this project was: <br>
+
+                                • A hardware device that monitors environment conditions<br>
+                                • A dashboard that allows one to monitor the status of all the beacons and alert EMS if they detect sudden changes in environment conditions<br>
+                                • Geofencing integration to alert others in the area to leave before the situation gets out of hand<br><br>
+
+                                <strong> Machine Learning: </strong> (time series forecasting) The machine learning aspect one which we believed could play a key role in our solution yet needed a 
+                                strong use case for. Initially, we wanted to use an attached camera and the google cloud vision API to confirm fires and reduce the number of false 
+                                positives created by this data. After some thought, we realized that this would be a misuse of the data we collect and decided to use time series 
+                                forecasting. This model works by detecting sudden changes in data in order to detect anomalies. We used a seasonality change model to account for 
+                                large variations slowly brought upon over large amounts of time, such as season changes. In order to test, we simulated a fire on our device and 
+                                tracked the data in a csv file. That data was passed into the model and the anomalies were rendered on our alert dashboard.<br><br>
+
+                                <strong> Web View: </strong>The information on Google Firebase is then retrieved and displayed on a web app user interface updated in real-time taking advantage of 
+                                the Google Maps API. The web app is built using the Vue.js framework to process the real-time data. Other areas of the web app such as the front-end 
+                                design are built using the HTML5, CSS3, and Javascript. Additional features were implemented using Bootstrap, and ApexGraphs.<br><br>
+
+                                <strong> Hardware: </strong> To accomplish the goals of FireGuard, we chose to use the NodeMCU which is an IoT (Internet of Things) enabled microcontroller built on 
+                                top of the Arduino framework. We attached several sensors to the board to help us gather the vital environmental data needed to be sent to Google 
+                                Cloud's Firebase Database. Some of these sensors included the DHT11 Temperature and Humidity Sensor, CCS811 Air Quality Sensor, VEML 6070 UV Index
+                                Sensor, SparkFun Soil Moisture Sensor, and the TCS34725 RGB Sensor. This combination of sensors and an IoT enabled microcontroller enables us to 
+                                gather and upload data in a lightweight and efficient format, reducing latency and overhead in emergency situations.<br><br>
+
+                                <strong> Data Base: </strong> The data is received by the NodeMCU microcontroller is sent to a real-time Google Firebase database where it is categorized by sensor
+                                and type of data.<br><br>
+
+                                Check out our project here! <a href="https://devpost.com/software/fireguard-07cbjk"> Devpost </a> <br><br>
+                            </p>
+                            <ul class="fireguard-icons">
+                                <li class="fireguard-github"><a class="guardian-github-link" href="https://github.com/Maxonezhou/fireguard"><i class="fa fa-github"></i></a></li>
+                                <li class="fireguard-devpost"><a class="guardian-devpost-link" href="https://devpost.com/software/fireguard-07cbjk"><i class="fa fa-bars"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="fireguard-img-flex">
+                            <img class="fireguard-img" src="fireguard1.png">
+                            <img class="fireguard-img" src="fireguard2.png">
+                            <img class="fireguard-img" src="fireguard3.png">
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
         <script src="script.js"></script>
